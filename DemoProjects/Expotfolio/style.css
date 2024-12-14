@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90eb6d;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 73px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: cursive;
+   
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #363636;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hero {
+    background: linear-gradient(to left, #000000, #641372);
+   
+    color: #95f739;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-content h2 {
+    font-size: 57px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-content p {
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+.addition{
+    background: rgb(211, 105, 238);
+}
+.slogan  {
+    font-weight: bold;
+    font-size: 60px;
+    color: #201f1f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 6% ;
+    margin-bottom: 10px;
+   
+    
+}
+.highlight{
+color: rgb(211, 103, 15);
+
+}
+
+.tagline {
+    font-size: 28px;
+    font-weight: 300;
+    padding-left: 6%;
+    color: #1d1414;
+    
+    
+    
+}
+
